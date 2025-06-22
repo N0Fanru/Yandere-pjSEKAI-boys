@@ -8,5 +8,5 @@ Yandere pjSEKAI boys is a fan visual novel based on the game "Project SEKAI COLO
 
 The game was initially created as nothing more than a joke, but in the end, several interesting mechanics were implemented in it, which are good enough for a portfolio. The code in some places looks chaotic and strange, since the project was created with large breaks in time. Also, many mechanics were never implemented, but there are blanks in the code for them.
 
-The game is only available in Russian.
+The game is only available in Russian. <br>
 The project is closed and is unlikely to ever get a sequel.
