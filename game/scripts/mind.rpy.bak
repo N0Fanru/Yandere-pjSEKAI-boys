@@ -1,0 +1,513 @@
+image mind_50to50:
+    "eye-half"
+
+image mind_150to50:
+    "eye-open"
+    "eye-half" with Dissolve(.3)
+
+image mind_300to50:
+    "eye-open-true"
+    "eye-open" with Dissolve(.3)
+    pause 0.3
+    "eye-half" with Dissolve(.3)
+
+image mind_450to50:
+    "mind450"
+    "eye-open-true" with Dissolve(.3)
+    pause 0.3
+    "eye-open" with Dissolve(.3)
+    pause 0.3
+    "eye-half" with Dissolve(.3)
+
+image mind_normto50:
+    "blank"
+    "mind450" with Dissolve(.4)
+    pause 0.4
+    "eye-open-true" with Dissolve(.3)
+    pause 0.3
+    "eye-open" with Dissolve(.3)
+    pause 0.3
+    "eye-half" with Dissolve(.3)
+
+image mind_850to50:
+    "mind850"
+    "blank" with Dissolve(.4)
+    pause 0.4
+    "mind450" with Dissolve(.4)
+    pause 0.4
+    "eye-open-true" with Dissolve(.3)
+    pause 0.3
+    "eye-open" with Dissolve(.3)
+    pause 0.3
+    "eye-half" with Dissolve(.3)
+
+image mind_950to50:
+    "mind950"
+    "mind850" with Dissolve(.4)
+    pause 0.3
+    "blank" with Dissolve(.4)
+    pause 0.6
+    "mind450" with Dissolve(.4)
+    pause 0.4
+    "eye-open-true" with Dissolve(.3)
+    pause 0.3
+    "eye-open" with Dissolve(.3)
+    pause 0.3
+    "eye-half" with Dissolve(.3)
+
+image mind_150to150:
+    "eye-open"
+
+image mind_300to150:
+    "eye-open-true"
+    "eye-open" with Dissolve(.3)
+
+image mind_450to150:
+    "mind450"
+    "eye-open-true" with Dissolve(.3)
+    pause 0.3
+    "eye-open" with Dissolve(.3)
+
+image mind_normto150:
+    "blank"
+    "mind450" with Dissolve(.4)
+    pause 0.4
+    "eye-open-true" with Dissolve(.3)
+    pause 0.3
+    "eye-open" with Dissolve(.3)
+
+image mind_850to150:
+    "mind850"
+    "blank" with Dissolve(.4)
+    pause 0.4
+    "mind450" with Dissolve(.4)
+    pause 0.4
+    "eye-open-true" with Dissolve(.3)
+    pause 0.3
+    "eye-open" with Dissolve(.3)
+
+image mind_950to150:
+    "mind950"
+    "mind850" with Dissolve(.4)
+    pause 0.3
+    "blank" with Dissolve(.4)
+    pause 0.6
+    "mind450" with Dissolve(.4)
+    pause 0.4
+    "eye-open-true" with Dissolve(.3)
+    pause 0.3
+    "eye-open" with Dissolve(.3)
+
+image mind_300to300:
+    "eye-open-true"
+
+image mind_450to300:
+    "mind450"
+    "eye-open-true" with Dissolve(.3)
+
+image mind_normto300:
+    "blank"
+    "mind450" with Dissolve(.4)
+    pause 0.4
+    "eye-open-true" with Dissolve(.3)
+
+image mind_850to300:
+    "mind850"
+    "blank" with Dissolve(.4)
+    pause 0.6
+    "mind450" with Dissolve(.4)
+    pause 0.4
+    "eye-open-true" with Dissolve(.3)
+
+image mind_950to300:
+    "mind950"
+    "mind850" with Dissolve(.4)
+    pause 0.3
+    "blank" with Dissolve(.4)
+    pause 0.6
+    "mind450" with Dissolve(.4)
+    pause 0.4
+    "eye-open-true" with Dissolve(.3)
+
+image mind_450to450:
+    "mind450"
+
+image mind_normto450:
+    "blank"
+    "mind450" with Dissolve(.3)
+
+image mind_normto450:
+    "mind850"
+    "blank" with Dissolve(.4)
+    pause 0.6
+    "mind450" with Dissolve(.3)
+
+image mind_950to450:
+    "mind950"
+    "mind850" with Dissolve(.4)
+    pause 0.3
+    "blank" with Dissolve(.4)
+    pause 0.6
+    "mind450" with Dissolve(.3)
+
+image mind_normtonorm:
+    "blank"
+
+image mind_50tonorm:
+    "eye-half"
+    "eye-open" with Dissolve(.3)
+    pause 0.3
+    "eye-open-true" with Dissolve(.3)
+    pause 0.3
+    "mind450" with Dissolve(.3)
+    pause 0.3
+    "blank" with Dissolve(.4)
+
+image mind_150tonorm:
+    "eye-open"
+    "eye-open-true" with Dissolve(.3)
+    pause 0.3
+    "mind450" with Dissolve(.3)
+    pause 0.3
+    "blank" with Dissolve(.4)
+
+image mind_300tonorm:
+    "eye-open-true"
+    "mind450" with Dissolve(.3)
+    pause 0.3
+    "blank" with Dissolve(.4)
+
+image mind_450tonorm:
+    "mind450"
+    "blank" with Dissolve(.4)
+
+image mind_850tonorm:
+    "mind850"
+    "blank" with Dissolve(.4)
+
+image mind_950tonorm:
+    "mind950"
+    "mind850" with Dissolve(.4)
+    pause 0.4
+    "blank" with Dissolve(.4)
+
+image mind_850to850:
+    "mind850"
+
+image mind_950to850:
+    "mind950"
+    "mind850" with Dissolve(.4)
+
+image mind_normto850:
+    "blank"
+    "mind850" with Dissolve(.4)
+
+image mind_450to850:
+    "mind450"
+    "blank" with Dissolve(.4)
+    pause 0.6
+    "mind850" with Dissolve(.4)
+
+image mind_300to850:
+    "eye-open-true"
+    "mind450" with Dissolve(.3)
+    pause 0.3
+    "blank" with Dissolve(.4)
+    pause 0.6
+    "mind850" with Dissolve(.4)
+
+image mind_150to850:
+    "eye-open"
+    "eye-open-true" with Dissolve(.3)
+    pause 0.3
+    "mind450" with Dissolve(.3)
+    pause 0.3
+    "blank" with Dissolve(.4)
+    pause 0.6
+    "mind850" with Dissolve(.4)
+
+image mind_50to850:
+    "eye-half"
+    "eye-open" with Dissolve(.3)
+    pause 0.3
+    "eye-open-true" with Dissolve(.3)
+    pause 0.3
+    "mind450" with Dissolve(.3)
+    pause 0.3
+    "blank" with Dissolve(.4)
+    pause 0.6
+    "mind850" with Dissolve(.4)
+
+image mind_950to950:
+    "mind850"
+
+image mind_850to950:
+    "mind950"
+    "mind850" with Dissolve(.4)
+
+image mind_normto950:
+    "blank"
+    "mind850" with Dissolve(.4)
+    pause 0.4
+    "mind950" with Dissolve(.4)
+
+image mind_450to950:
+    "mind450"
+    "blank" with Dissolve(.4)
+    pause 0.6
+    "mind850" with Dissolve(.4)
+    pause 0.3
+    "mind950" with Dissolve(.4)
+
+image mind_300to950:
+    "eye-open-true"
+    "mind450" with Dissolve(.3)
+    pause 0.3
+    "blank" with Dissolve(.4)
+    pause 0.6
+    "mind850" with Dissolve(.4)
+    pause 0.3
+    "mind950" with Dissolve(.4)
+
+image mind_150to950:
+    "eye-open"
+    "eye-open-true" with Dissolve(.3)
+    pause 0.3
+    "mind450" with Dissolve(.3)
+    pause 0.3
+    "blank" with Dissolve(.4)
+    pause 0.6
+    "mind850" with Dissolve(.4)
+    pause 0.3
+    "mind950" with Dissolve(.4)
+
+image mind_50to950:
+    "eye-half"
+    "eye-open" with Dissolve(.3)
+    pause 0.3
+    "eye-open-true" with Dissolve(.3)
+    pause 0.3
+    "mind450" with Dissolve(.3)
+    pause 0.3
+    "blank" with Dissolve(.4)
+    pause 0.6
+    "mind850" with Dissolve(.4)
+    pause 0.3
+    "mind950" with Dissolve(.4)
+
+
+
+default persistent.aaaaaaaa = ""
+
+init python:
+    def mind_effect_imf(st, at):
+        if mind_value < 50:
+            newval = '50'
+        elif mind_value < 150:
+            newval = '150'
+        elif mind_value < 300:
+            newval = '300'
+        elif mind_value < 450:
+            newval = '450'
+        elif mind_value > 950:
+            newval = '950'
+        elif mind_value > 850:
+            newval = '850'
+        else:
+            newval = 'norm'
+
+        if old_mind_value < 50:
+            oldval = '50'
+        elif old_mind_value < 150:
+            oldval = '150'
+        elif old_mind_value < 300:
+            oldval = '300'
+        elif old_mind_value < 450:
+            oldval = '450'
+        elif old_mind_value > 950:
+            oldval = '950'
+        elif old_mind_value > 850:
+            oldval = '850'
+        else:
+            oldval = 'norm'
+        persistent.aaaaaaaa = 'mind_' + oldval + 'to' + newval
+        return 'mind_' + oldval + 'to' + newval, None
+
+image mind_effect_im = DynamicDisplayable(mind_effect_imf)
+
+
+
+
+define mind_value = 1000
+define mind_max = 1000
+define old_mind_value = 500
+
+define mind_can_lose = False
+define mind_extrem_max = False
+
+init python:
+    def mind(val, typev=""):
+        global old_mind_value, mind_value, mind_extrem_max, mind_can_lose
+        old_mind_value = mind_value
+
+        if not mind_extrem_max:
+            if typev == "":
+                mind_value = val
+            elif typev == "+":
+                mind_value += val
+            elif typev == "-":
+                mind_value -= val
+
+            if mind_value >= 1000:
+                mind_value = 1000
+                if mind_can_lose:
+                    mind_extrem_max = True
+            elif mind_value <= 0:
+                mind_value = 0
+                if mind_can_lose:
+                    renpy.jump('lose_mind')
+            
+
+
+
+
+default persistent.showmindebart = 'none'
+
+transform showmindebar:
+    alpha 0.0
+    block:
+        ease 0.8 alpha 1.0
+        pause 0.3
+        ease 0.8 alpha 0.2
+        pause 0.1
+        repeat 2
+    ease 0.5 alpha 1.0
+
+screen mind_bar_screen:
+
+    zorder 80
+
+    $ minde_var_val = ExtraAnimatedValue(
+                    value=mind_value, 
+                    range=mind_max, 
+                    range_delay=3.5,
+                    warper="ease_quart")
+
+    timer 0.01 action Show('mind_effect_sc')
+
+    fixed:
+        area(50, 45, 519, 88)
+
+        if persistent.showmindebart == 'blink':
+
+            add "mind_bar_bg" at showmindebar
+
+            bar at showmindebar:
+                value minde_var_val
+                left_bar ValueImage(
+                    minde_var_val,
+                    Transform("images/bar/mind_bar_bad.png", zoom=1.05),
+                    Transform("images/bar/mind_bar_normal.png", zoom=1.05),
+                    Transform("images/bar/mind_bar_full.png", zoom=1.05))
+                right_bar Transform("images/bar/mind_bar_emply.png", zoom=1.05)
+                area(55, 3, 420, 88)
+
+            add minde_var_val.text('{0.current_value:.0f}',
+                        size = 40,
+                        color = "#fc5252",
+                        outlines = [(abs(5), "#ffffff")],
+                        bold = True,
+                        xcenter = 0.78,
+                        ycenter = 0.12) at showmindebar
+
+        else:
+
+            add "mind_bar_bg"
+
+            bar:
+                value minde_var_val
+                left_bar ValueImage(
+                    minde_var_val,
+                    Transform("images/bar/mind_bar_bad.png", zoom=1.05),
+                    Transform("images/bar/mind_bar_normal.png", zoom=1.05),
+                    Transform("images/bar/mind_bar_full.png", zoom=1.05))
+                right_bar Transform("images/bar/mind_bar_emply.png", zoom=1.05)
+                area(55, 3, 420, 88)
+
+            add minde_var_val.text('{0.current_value:.0f}',
+                        size = 40,
+                        color = "#fc5252",
+                        outlines = [(abs(5), "#ffffff")],
+                        bold = True,
+                        xcenter = 0.78,
+                        ycenter = 0.12)
+
+screen mind_effect_sc():
+    zorder 20
+    add "mind_effect_im"
+
+
+
+
+
+screen lose_mind_screen:
+    zorder 30
+    modal True
+    style_prefix "choice"
+
+    text _("{size=+30}{color=#980002}Вы проиграли{/color}{/size}") xalign 0.5 yalign 0.3
+
+    $ lastsave=renpy.newest_slot(r"\d+")
+    vbox:
+        ypos 580
+        $ name, page = lastsave.split("-")
+        textbutton _("Загрузить последний выбор") action FileLoad(name, page='auto')
+        textbutton _("Вернуться в главное меню") action MainMenu(confirm=False, save=False)
+
+label lose_mind:
+
+    p "Я так больше не могу..."
+
+    stop music
+
+    p "Почему, почему всё это происходит именно со мной..."
+
+    play music lose_mind fadein 5.0 volume 2.0
+
+    p "ПОЧЕМУ?! {w=0.2}{nw}" with hpunch
+    extend "ПОЧЕМУ?! {w=0.2}{nw}" with hpunch
+    extend "ПОЧЕМУ?! {w=0.2}{nw}" with hpunch
+    extend "ПОЧЕМУ ВСЁ ИМЕННО ТАК?!" with hpunch
+
+    p "..."
+
+    scene black with Dissolve(.3)
+
+    "Вы делаете глубокий вздох и закрываете глаза... {w=0.5}{nw}"
+
+    play music none volume 2.0
+    
+    extend "После этого вы больше не вспомните как снова их откроете..."
+
+    "Вы ничего больше не вспомните. Ваш мозг прервал ваши страдания, убив вас как личность."
+
+    "Что было дальше? {w=0.3}Хороший вопрос, но ответа на него никто и никогда не узнает..."
+
+    call kaito_list_lable('mind')
+
+    ks1 "Как печально..."
+
+    window hide
+    pause 0.3
+    hide screen mind_bar_screen
+    hide screen quick_menu
+    $ quick_menu = False
+    with Dissolve(.3)
+
+    pause 0.5
+    # ачивка сойти с ума
+    show screen lose_mind_screen with Dissolve(.3)
+
+    pause
+
+    return
