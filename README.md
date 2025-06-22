@@ -1,5 +1,5 @@
 # Yandere pjSEKAI boys
-![en](https://img.shields.io/badge/lang-en-en?color=ff6363)
+[![en](https://img.shields.io/badge/lang-en-en?color=ff6363)](https://github.com/N0Fanru/Yandere-pjSEKAI-boys/blob/master/README-en.md)
 [![ru](https://img.shields.io/badge/lang-ru-ru?color=ffffff)](https://github.com/N0Fanru/Yandere-pjSEKAI-boys/blob/master/README.md)
 
 Yandere pjSEKAI boys - это фанатская визуальная новела, основанная на игре "Project SEKAI COLORFUL STAGE! feat. Hatsune Miku"
